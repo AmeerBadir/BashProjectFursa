@@ -25,5 +25,4 @@ else
     mkdir "$tmp_dir"
 fi
 
-# killing the process that is bound to port 8080 (if it exists)
 fuser -k 8080/tcp
