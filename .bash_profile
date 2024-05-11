@@ -1,7 +1,7 @@
 # your solution here...
 #!/bin/bash
 echo Hello $USER
-COURSE_ID='DevOpsFursa'
+export COURSE_ID="DevOpsFursa"
 
 if [ -e "$HOME/.token" ]; then
     # Get the octal representation of the file permissions
