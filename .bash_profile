@@ -1,6 +1,6 @@
 # your solution here...
 #!/bin/bash
-echo Hellow $USER
+echo Hello $USER
 COURSE_ID='DevOpsFursa'
 
 if [ -e "$HOME/.token" ]; then
