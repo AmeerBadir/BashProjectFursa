@@ -12,7 +12,10 @@ if [ -e "$HOME/.token" ]; then
 
 fi
 umask 006
-export PATH="$PATH:/$whoami)/usercommands"
+export PATH=$PATH:$HOME/usercommands
+
+# echo $PATH
+#
 date -u +"%Y-%m-%dT%H:%M:%S%:z"
 
 alias ltxt='ls *.txt'
